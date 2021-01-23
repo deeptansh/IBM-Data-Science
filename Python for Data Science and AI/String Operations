@@ -1,0 +1,58 @@
+Python for Data Science and AI
+
+Quiz: String Operations
+7 questions
+QUIZ • 30 MIN
+String Operations
+
+Question 1
+In Python, if you executed name = 'Lizz', what would be the output of print(name[0:2])?
+
+Li
+
+Correct
+Correct, we only retrieve the first two elements.
+
+Question 2
+In Python, if you executed var = '01234567', what would be the result of print(var[::2]) ?
+
+0246
+
+Correct
+Correct,  a stride value of 2 selects even elements 
+
+Question 3
+In Python, what is the result of the following operation: '1'+'2' ?
+
+'12'
+
+Correct
+correct, the '+' applied to strings does not add strings but concatenates them 
+
+Question 4
+Given myvar = 'hello' , how would you return myvar as uppercase?
+
+myvar.upper()
+
+Correct
+correct
+
+Question 5
+Consider the string Name="ABCDE", what is the result of the following operation Name.find("B") ?
+
+1
+
+correct, the method finds the starting index of a substring
+
+Question 6
+What is the result of the following : str(1)+str(1) ?
+'11'
+
+correct, the integers are cast to a string, and the strings are concatenated 
+
+Question 7
+What is the result of the following: "ABC".replace("AB", "ab") ?
+
+'abC' 
+Correct
+correct, the method replace returns a copy of the string with all occurrences of the old substring 
