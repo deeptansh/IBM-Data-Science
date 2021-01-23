@@ -1,0 +1,32 @@
+Expressions and Variables
+
+Question 1
+What is the result of the following code segment:1/2 ?
+
+0.5 
+
+correct a / corresponds to regular division
+
+Question 2
+What is the value of x after the following lines of code?
+
+x=2
+
+x=x+2
+
+4
+
+Correct: the value x=x+2 changes the value of x, if x is assigned to its self. It's helpful to replace the value of x with its current value in this case 2 or x=2+2.
+
+Question 3
+What is the result of the following operation 1+3*2 ?
+
+7
+correct, Python follows the standard mathematical conventions
+ 
+Question 4
+In Python 3, what is the type of the variable x after the following: x=2/2 ?
+
+float
+
+correct, in Python 3, regular division always results in a float 
