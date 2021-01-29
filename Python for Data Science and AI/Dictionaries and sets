@@ -1,0 +1,36 @@
+Dictionaries
+
+Question 1
+Consider the following dictionary:
+
+{ "The Bodyguard":"1992", "Saturday Night Fever":"1977"}
+
+select  the values
+
+Question 2
+The variable  release_year_dict is a Python Dictionary, what is the result of applying the following method: release_year_dict.keys() ?
+1 / 1 point
+
+Correct
+3.
+Question 3
+What is wrong with the following dictionary: {'a':1, 'a':2} ?
+1 / 1 point
+
+Correct
+
+
+
+
+Sets
+
+1.
+Question 1
+How do you cast the list  A  to the set a?
+
+2.
+Consider the Set: V={'1','2'}, what is the result of V.add('3')
+
+3.
+Question 3
+What is the result of the following: '1' in {'1','2'} ?
