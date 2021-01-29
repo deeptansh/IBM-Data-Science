@@ -1,0 +1,94 @@
+List and Tuples
+Question 1
+What is the syntax to obtain the first element of the tuple?
+
+A=('a','b','c')
+
+A[0]
+correct, the index 0 corresponds to the first element of a list or tuple.
+
+Question 2
+Consider the tuple A=((11,12),[21,22]), that contains a tuple and list. What is the result of the following operation A[1] ?
+
+((11,12),[21,22])
+
+
+[21,22]
+
+Correct
+correct, the index 1 corresponds to the second element in the tuple, which contains another list.
+
+Question 3
+Consider the tuple  A=((1),[2,3],[4]), that contains a tuple and list. What is the result of the following operation A[2][0]?
+1 / 1 point
+
+
+4
+
+Correct
+correct, A[2] corresponds to the third nested list; we then access the only element of the list using the index 0 i.e. A[2][0].
+
+Question 4
+What is the result of the following operation: 'A,B,C,D'.split(',') ?
+1 / 1 point
+
+
+['A', 'B', 'C', 'D']
+
+correct, split returns a list of the words in the string, separated by the delimiter string, in this case, a comma.
+
+Question 5
+True or false: after applying the following method, L.append(['a','b']), the following list will only be one element longer.
+
+1 / 1 point
+
+
+ True
+Correct
+append only adds one element to a list
+
+
+Question 6
+ True or false: lists are mutable 
+1 / 1 point
+
+
+True
+
+
+Correct
+correct, lists are mutable tuples are not
+
+
+Question 7
+Consider the following list : A=["hard rock",10,1.2]
+
+What will list A contain affter the following command is run: del(A[1]) ?
+
+1 / 1 point
+
+["hard rock",1.2]
+
+
+Correct
+correct , we will delete element 1 
+
+Question 8
+What is the syntax to clone the list A and assign the result to list B ?
+1 / 1 point
+
+
+B=A[:]
+
+Correct
+correct
+
+Question 9
+What is the result of the following: len(("disco",10,1.2, "hard rock",10)) ?
+1 / 1 point
+
+
+5
+
+
+correct, there are 5 elements in the tuple so the function len returns 5
